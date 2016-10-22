@@ -1,8 +1,5 @@
 <?php
-/**
- * @author Convert Team
- * @copyright Copyright (c) 2016 Convert (http://www.convert.no/)
- */
+
 namespace Convert\AlgoliaSearchStaging\Plugin\Helper\Entity;
 
 use Magento\Framework\EntityManager\MetadataPool;

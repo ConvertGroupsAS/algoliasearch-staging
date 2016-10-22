@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Convert Team
+ * @copyright Copyright (c) 2016 Convert (http://www.convert.no/)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Algolia\AlgoliaSearch\Helper\Entity\BaseHelper">
+        <plugin name="algoliaSearchStagingBaseHelper" type="Convert\AlgoliaSearchStaging\Plugin\Helper\Entity\BaseHelper" />
+    </type>
+</config>
